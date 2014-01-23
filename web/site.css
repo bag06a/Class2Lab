@@ -20,12 +20,13 @@ h1{
 }
 
 div{
+    width: 900px;
+    margin: 0px auto ;
     
-    margin: auto 0px;
 }
 div div{
     border: 1px dashed black;
     padding: 5px;
-    margin: 5px;
+    
     width: 350px;
 }
