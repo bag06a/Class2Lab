@@ -18,15 +18,18 @@ h1{
     height: 144px;
     width: 192px;
 }
+td{
+    border: 1px solid black;
+}
 
 div{
     width: 900px;
-    margin: 0px auto ;
-    
+    margin: 0px auto;
+    background-color: rgba(25,52,48,.7);
 }
 div div{
     border: 1px dashed black;
     padding: 5px;
-    
+    background-color: white;
     width: 350px;
 }
