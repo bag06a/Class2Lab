@@ -39,7 +39,8 @@ public class PageGenerator extends HttpServlet {
         for(int i=1; i<=3; i++){
             sb.append("<tr>");
             for(int j=1; j<=3; j++){
-                sb.append("<td>Row ").append(i).append(" Column ").append(j).append("</td>");
+                sb.append("<td>Row ")
+                        .append(i).append(" Column ").append(j).append("</td>");
             }
             sb.append("</tr>");
             
