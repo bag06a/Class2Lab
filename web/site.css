@@ -12,13 +12,20 @@ h1{
     text-decoration: underline;
 }
 .meImg{
-    height: 72px;
-    width: 96px;
+    float:left;
+    padding: 5px;
+    margin: 5px;
+    height: 144px;
+    width: 192px;
 }
 
 div{
+    
+    margin: auto 0px;
+}
+div div{
     border: 1px dashed black;
     padding: 5px;
     margin: 5px;
-    width: 300px;
+    width: 350px;
 }
